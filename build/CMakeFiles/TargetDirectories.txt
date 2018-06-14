@@ -1,0 +1,3 @@
+C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/addon.dir
+C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/ZERO_CHECK.dir

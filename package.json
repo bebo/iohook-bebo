@@ -1,0 +1,22 @@
+{
+  "name": "io-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bebo/io-hook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bebo/io-hook/issues"
+  },
+  "homepage": "https://github.com/bebo/io-hook#readme",
+  "devDependencies": {
+    "nan": "^2.10.0"
+  }
+}
