@@ -20,9 +20,6 @@ target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_JS_INC})
 # target_include_directories(${PROJECT_NAME} PRIVATE ${UIHOOK})
 target_link_libraries(${PROJECT_NAME} ${CMAKE_JS_LIB} ${UIHOOK})
 
-
-
-
 # if("${CMAKE_SYSTEM_NAME}" STREQUAL "Linux")
 #   target_link_libraries(${PROJECT_NAME} ${CMAKE_JS_LIB} "uiohook" "xkbfile" "xkbcommon-x11" "xkbcommon" "X11-xcb" "xcb" "Xinerama" "Xt" "Xtst" "X11")
 # endif()
