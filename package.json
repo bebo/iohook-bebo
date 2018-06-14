@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cmake-js compile",
-    "build": "cmake-js compile"
+    "postinstall": "cmake-js compile"
   },
   "repository": {
     "type": "git",
