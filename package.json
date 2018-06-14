@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "cmake-js compile",
     "build": "cmake-js compile"
   },
   "repository": {
