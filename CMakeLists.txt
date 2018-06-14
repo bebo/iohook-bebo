@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 
 # Name of the project (will be the name of the plugin)
 project(iohook)
-include_directories(${CMAKE_JS_INC})
+include_directories(${CMAKE_JS_INC} ../nan)
 
 # Build a shared library named after the project from the files in `src/`
 file(GLOB SOURCE_FILES "src/*.cc" "src/*.h")
