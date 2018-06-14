@@ -1,15 +1,15 @@
 cmake_minimum_required(VERSION 2.8)
 
 # Name of the project (will be the name of the plugin)
-project(addon)
+project(io-hook)
 include_directories(${CMAKE_JS_INC})
 
 # Build a shared library named after the project from the files in `src/`
 file(GLOB SOURCE_FILES "src/*.cc" "src/*.h")
 add_library(${PROJECT_NAME} SHARED ${SOURCE_FILES})
 
-file(GLOB UIHOOK "src/uiohook.lib" "src/uiohook.dll")
-# add_library(${PROJECT_NAME} SHARED ${UIHOOK})
+file(GLOB UIHOOK "lib/uiohook.lib")
+# LINK_DIRECTORIES("${CMAKE_CURRENT_SOURCE_DIR}/lib")
 
 # Gives our library file a .node extension without any "lib" prefix
 set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "" SUFFIX ".node")

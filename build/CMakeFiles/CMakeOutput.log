@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 6/13/2018 5:41:15 PM.
+Build started 6/13/2018 6:08:14 PM.
 Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\3.11.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.87
+Time Elapsed 00:00:00.90
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 6/13/2018 5:41:17 PM.
+Build started 6/13/2018 6:08:15 PM.
 Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\3.11.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.93
+Time Elapsed 00:00:00.94
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,33 +92,71 @@ The CXX compiler identification is MSVC, found in "C:/Users/Tulga/Bebo/tulga-dev
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_82fe4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_10875.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 6/13/2018 5:41:18 PM.
-Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_82fe4.vcxproj" on node 1 (default targets).
+Build started 6/13/2018 6:08:17 PM.
+Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_10875.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_82fe4.dir\Debug\".
+  Creating directory "cmTC_10875.dir\Debug\".
   Creating directory "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_82fe4.dir\Debug\cmTC_82fe4.tlog\".
+  Creating directory "cmTC_10875.dir\Debug\cmTC_10875.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_82fe4.dir\Debug\cmTC_82fe4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_10875.dir\Debug\cmTC_10875.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82fe4.dir\Debug\\" /Fd"cmTC_82fe4.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10875.dir\Debug\\" /Fd"cmTC_10875.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26430 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82fe4.dir\Debug\\" /Fd"cmTC_82fe4.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10875.dir\Debug\\" /Fd"cmTC_10875.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   testCCompiler.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_82fe4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_82fe4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_82fe4.lib" /MACHINE:X64  /machine:x64 cmTC_82fe4.dir\Debug\testCCompiler.obj
-  cmTC_82fe4.vcxproj -> C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_82fe4.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_10875.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_10875.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_10875.lib" /MACHINE:X64  /machine:x64 cmTC_10875.dir\Debug\testCCompiler.obj
+  cmTC_10875.vcxproj -> C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_10875.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_82fe4.dir\Debug\cmTC_82fe4.tlog\unsuccessfulbuild".
-  Touching "cmTC_82fe4.dir\Debug\cmTC_82fe4.tlog\cmTC_82fe4.lastbuildstate".
-Done Building Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_82fe4.vcxproj" (default targets).
+  Deleting file "cmTC_10875.dir\Debug\cmTC_10875.tlog\unsuccessfulbuild".
+  Touching "cmTC_10875.dir\Debug\cmTC_10875.tlog\cmTC_10875.lastbuildstate".
+Done Building Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_10875.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7804e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/13/2018 6:08:18 PM.
+Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_7804e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7804e.dir\Debug\".
+  Creating directory "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7804e.dir\Debug\cmTC_7804e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7804e.dir\Debug\cmTC_7804e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7804e.dir\Debug\\" /Fd"cmTC_7804e.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\msys64\mingw64\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26430 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7804e.dir\Debug\\" /Fd"cmTC_7804e.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\msys64\mingw64\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_7804e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_7804e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_7804e.lib" /MACHINE:X64  /machine:x64 cmTC_7804e.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_7804e.vcxproj -> C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_7804e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_7804e.dir\Debug\cmTC_7804e.tlog\unsuccessfulbuild".
+  Touching "cmTC_7804e.dir\Debug\cmTC_7804e.tlog\cmTC_7804e.lastbuildstate".
+Done Building Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_7804e.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
@@ -127,118 +165,80 @@ Build succeeded.
 Time Elapsed 00:00:00.94
 
 
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7a855.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-Build started 6/13/2018 5:41:19 PM.
-Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_7a855.vcxproj" on node 1 (default targets).
-PrepareForBuild:
-  Creating directory "cmTC_7a855.dir\Debug\".
-  Creating directory "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_7a855.dir\Debug\cmTC_7a855.tlog\".
-InitializeBuildStatus:
-  Creating "cmTC_7a855.dir\Debug\cmTC_7a855.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a855.dir\Debug\\" /Fd"cmTC_7a855.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\msys64\mingw64\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26430 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a855.dir\Debug\\" /Fd"cmTC_7a855.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\msys64\mingw64\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
-  CMakeCCompilerABI.c
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_7a855.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_7a855.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_7a855.lib" /MACHINE:X64  /machine:x64 cmTC_7a855.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_7a855.vcxproj -> C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_7a855.exe
-FinalizeBuildStatus:
-  Deleting file "cmTC_7a855.dir\Debug\cmTC_7a855.tlog\unsuccessfulbuild".
-  Touching "cmTC_7a855.dir\Debug\cmTC_7a855.tlog\cmTC_7a855.lastbuildstate".
-Done Building Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_7a855.vcxproj" (default targets).
-
-Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-
-Time Elapsed 00:00:01.18
-
-
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7f2ea.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_0cb49.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 6/13/2018 5:41:20 PM.
-Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_7f2ea.vcxproj" on node 1 (default targets).
+Build started 6/13/2018 6:08:19 PM.
+Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_0cb49.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_7f2ea.dir\Debug\".
+  Creating directory "cmTC_0cb49.dir\Debug\".
   Creating directory "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_7f2ea.dir\Debug\cmTC_7f2ea.tlog\".
+  Creating directory "cmTC_0cb49.dir\Debug\cmTC_0cb49.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_7f2ea.dir\Debug\cmTC_7f2ea.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_0cb49.dir\Debug\cmTC_0cb49.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7f2ea.dir\Debug\\" /Fd"cmTC_7f2ea.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0cb49.dir\Debug\\" /Fd"cmTC_0cb49.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26430 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7f2ea.dir\Debug\\" /Fd"cmTC_7f2ea.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0cb49.dir\Debug\\" /Fd"cmTC_0cb49.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   testCXXCompiler.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_7f2ea.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_7f2ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_7f2ea.lib" /MACHINE:X64  /machine:x64 cmTC_7f2ea.dir\Debug\testCXXCompiler.obj
-  cmTC_7f2ea.vcxproj -> C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_7f2ea.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_0cb49.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_0cb49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_0cb49.lib" /MACHINE:X64  /machine:x64 cmTC_0cb49.dir\Debug\testCXXCompiler.obj
+  cmTC_0cb49.vcxproj -> C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_0cb49.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_7f2ea.dir\Debug\cmTC_7f2ea.tlog\unsuccessfulbuild".
-  Touching "cmTC_7f2ea.dir\Debug\cmTC_7f2ea.tlog\cmTC_7f2ea.lastbuildstate".
-Done Building Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_7f2ea.vcxproj" (default targets).
+  Deleting file "cmTC_0cb49.dir\Debug\cmTC_0cb49.tlog\unsuccessfulbuild".
+  Touching "cmTC_0cb49.dir\Debug\cmTC_0cb49.tlog\cmTC_0cb49.lastbuildstate".
+Done Building Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_0cb49.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.96
+Time Elapsed 00:00:00.94
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f93b6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_363ca.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 6/13/2018 5:41:22 PM.
-Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_f93b6.vcxproj" on node 1 (default targets).
+Build started 6/13/2018 6:08:20 PM.
+Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_363ca.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_f93b6.dir\Debug\".
+  Creating directory "cmTC_363ca.dir\Debug\".
   Creating directory "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_f93b6.dir\Debug\cmTC_f93b6.tlog\".
+  Creating directory "cmTC_363ca.dir\Debug\cmTC_363ca.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_f93b6.dir\Debug\cmTC_f93b6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_363ca.dir\Debug\cmTC_363ca.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f93b6.dir\Debug\\" /Fd"cmTC_f93b6.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\msys64\mingw64\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_363ca.dir\Debug\\" /Fd"cmTC_363ca.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\msys64\mingw64\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26430 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f93b6.dir\Debug\\" /Fd"cmTC_f93b6.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\msys64\mingw64\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_363ca.dir\Debug\\" /Fd"cmTC_363ca.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\msys64\mingw64\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
   CMakeCXXCompilerABI.cpp
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_f93b6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_f93b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_f93b6.lib" /MACHINE:X64  /machine:x64 cmTC_f93b6.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_f93b6.vcxproj -> C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_f93b6.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_363ca.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_363ca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_363ca.lib" /MACHINE:X64  /machine:x64 cmTC_363ca.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_363ca.vcxproj -> C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_363ca.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_f93b6.dir\Debug\cmTC_f93b6.tlog\unsuccessfulbuild".
-  Touching "cmTC_f93b6.dir\Debug\cmTC_f93b6.tlog\cmTC_f93b6.lastbuildstate".
-Done Building Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_f93b6.vcxproj" (default targets).
+  Deleting file "cmTC_363ca.dir\Debug\cmTC_363ca.tlog\unsuccessfulbuild".
+  Touching "cmTC_363ca.dir\Debug\cmTC_363ca.tlog\cmTC_363ca.lastbuildstate".
+Done Building Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_363ca.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.02
+Time Elapsed 00:00:00.91
 
 
 
@@ -246,39 +246,39 @@ Time Elapsed 00:00:01.02
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8ce96.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7bc8e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 6/13/2018 5:41:23 PM.
-Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_8ce96.vcxproj" on node 1 (default targets).
+Build started 6/13/2018 6:08:22 PM.
+Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_7bc8e.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_8ce96.dir\Debug\".
+  Creating directory "cmTC_7bc8e.dir\Debug\".
   Creating directory "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_8ce96.dir\Debug\cmTC_8ce96.tlog\".
+  Creating directory "cmTC_7bc8e.dir\Debug\cmTC_7bc8e.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_8ce96.dir\Debug\cmTC_8ce96.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_7bc8e.dir\Debug\cmTC_7bc8e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8ce96.dir\Debug\\" /Fd"cmTC_8ce96.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\feature_tests.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7bc8e.dir\Debug\\" /Fd"cmTC_7bc8e.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\feature_tests.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26430 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8ce96.dir\Debug\\" /Fd"cmTC_8ce96.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7bc8e.dir\Debug\\" /Fd"cmTC_7bc8e.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\feature_tests.cxx"
   feature_tests.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_8ce96.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_8ce96.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_8ce96.lib" /MACHINE:X64  /machine:x64 cmTC_8ce96.dir\Debug\feature_tests.obj
-  cmTC_8ce96.vcxproj -> C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_8ce96.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_7bc8e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_7bc8e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tulga/Bebo/tulga-dev/io-hook/build/CMakeFiles/CMakeTmp/Debug/cmTC_7bc8e.lib" /MACHINE:X64  /machine:x64 cmTC_7bc8e.dir\Debug\feature_tests.obj
+  cmTC_7bc8e.vcxproj -> C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\Debug\cmTC_7bc8e.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_8ce96.dir\Debug\cmTC_8ce96.tlog\unsuccessfulbuild".
-  Touching "cmTC_8ce96.dir\Debug\cmTC_8ce96.tlog\cmTC_8ce96.lastbuildstate".
-Done Building Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_8ce96.vcxproj" (default targets).
+  Deleting file "cmTC_7bc8e.dir\Debug\cmTC_7bc8e.tlog\unsuccessfulbuild".
+  Touching "cmTC_7bc8e.dir\Debug\cmTC_7bc8e.tlog\cmTC_7bc8e.lastbuildstate".
+Done Building Project "C:\Users\Tulga\Bebo\tulga-dev\io-hook\build\CMakeFiles\CMakeTmp\cmTC_7bc8e.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.02
+Time Elapsed 00:00:00.93
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
