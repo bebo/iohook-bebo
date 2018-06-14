@@ -17,7 +17,7 @@
     "url": "https://github.com/bebo/io-hook/issues"
   },
   "homepage": "https://github.com/bebo/io-hook#readme",
-  "devDependencies": {
+  "dependencies": {
     "nan": "^2.10.0"
   },
   "cmake-js": {
