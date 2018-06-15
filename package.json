@@ -1,10 +1,10 @@
 {
-  "name": "io-hook",
+  "name": "iohook",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cmake-js compile"
+    "install": "cmake-js compile"
   },
   "repository": {
     "type": "git",
