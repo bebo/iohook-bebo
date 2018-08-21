@@ -20,7 +20,6 @@
     "nan": "^2.10.0"
   },
   "cmake-js": {
-    "runtime": "nw",
-    "runtimeVersion": "0.28.2"
+    "runtime": "nw"
   }
 }
